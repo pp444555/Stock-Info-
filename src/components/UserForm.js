@@ -5,7 +5,7 @@ const UserForm=({handleFormChange,handleFormSubmit})=> {
     <>
     <center><h3 className="my-4">Add User</h3></center>
     <div className="container my-3">
-  <form onSubmit={handleFormSubmit} >
+  <form onSubmit={handleFormSubmit}>
 <div className="form-row">
 <div className="form-group col-md-4">
   <label for="name">Name</label>

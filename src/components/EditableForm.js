@@ -6,7 +6,7 @@ const EditableForm=({editFormData,handleEditFormChange,handleEditFormSubmit,hand
     <Fragment>
     <center><h3 className="my-4">Update User</h3></center>
     <div className="container my-3">
-  <form>
+  <form onSubmit={handleEditFormSubmit}>
 <div className="form-row">
 <div className="form-group col-md-4">
   <label for="name">Name</label>
@@ -72,7 +72,7 @@ const EditableForm=({editFormData,handleEditFormChange,handleEditFormSubmit,hand
 </div>
 </div>  
 <div>
-<center><button type="submit" class="btn btn-danger my-2">Update Book Stock</button></center>
+<center><button type="submit" class="btn btn-danger my-2" >Update Book Stock</button></center>
 <center><button type="submit" class="btn btn-danger" onClick={handleCancelClick}>Cancel Book Stock</button></center>
 </div>
 </form>

@@ -105,6 +105,7 @@ const App=({stock})=> {
       city:editFormData.city,
       gender:editFormData.gender,
       type:editFormData.type,
+      stock:editFormData.stock,
       quantity:editFormData.quantity,
 
     };
@@ -118,7 +119,10 @@ const App=({stock})=> {
       setStocks(newStocks);
       setEditStockId(null);
 
-      console.log(newStocks)
+      // alert("clicked")
+      
+
+      // console.log(newStocks)
       
     };
 
@@ -167,11 +171,11 @@ const App=({stock})=> {
     <div>
       <NavBar/>
       <Fragment>
-      {editStockId===null?(<UserForm/>):null}
+      {editStockId===null?(<UserForm handleFormSubmit={handleFormSubmit} handleFormChange={handleFormChange}/>):null}
       </Fragment>
       {stocks.map((stock)=>( 
       <Fragment>
-      {editStockId===stock.id?(<EditableForm editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancelClick={cancelClick}/>):null}
+      {editStockId===stock.id?(<EditableForm editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancelClick={cancelClick} handleEditFormSubmit={handleEditFormSubmit}/>):null}
       </Fragment>
       ))}
         <div className="app-container my-3">
@@ -179,16 +183,16 @@ const App=({stock})=> {
         <table className="table table-striped table-hover">
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Phone number</th>
-              <th>City</th>
-              <th>Address</th>
-              <th>Gender</th>
-              <th>Investor Type</th>
-              <th>Stock</th>  
-              <th>Stock Quantity</th>
-              <th>Actions</th>
+              <th className="text-center">Name</th>
+              <th className="text-center">Email</th>
+              <th className="text-center">Phone number</th>
+              <th className="text-center">City</th>
+              <th className="text-center">Address</th>
+              <th className="text-center">Gender</th>
+              <th className="text-center">Investor Type</th>
+              <th className="text-center">Stock</th>  
+              <th className="text-center">Stock Quantity</th>
+              <th className="text-center">Actions</th>
             </tr>
           </thead>
           <tbody>
