@@ -4,7 +4,7 @@ import {Fragment} from 'react';
 const EditableForm=({editFormData,handleEditFormChange,handleEditFormSubmit,handleCancelClick})=> {
   return (
     <Fragment>
-    <center><h3 className="my-4">Update User</h3></center>
+    <center><h3 style={{margin:'35px 0px',marginTop:'90px'}}>Update User</h3></center>
     <div className="container my-3">
   <form onSubmit={handleEditFormSubmit}>
 <div className="form-row">

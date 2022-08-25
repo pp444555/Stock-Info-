@@ -3,8 +3,8 @@ import React from 'react'
 const UserForm=({handleFormChange,handleFormSubmit})=> {
   return (
     <>
-    <center><h3 className="my-4">Add User</h3></center>
-    <div className="container my-3">
+    <center><h3 style={{margin:'35px 0px',marginTop:'90px'}}>Add User</h3></center>
+    <div className="container my-5">
   <form onSubmit={handleFormSubmit}>
 <div className="form-row">
 <div className="form-group col-md-4">

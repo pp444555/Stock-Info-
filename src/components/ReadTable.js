@@ -1,4 +1,5 @@
 import React from 'react'
+import RenderForm from './RenderForm';
 
 const ReadTable=({stock,handleEditClick,handleDeleteClick})=>{
   return (

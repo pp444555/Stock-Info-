@@ -10,54 +10,6 @@
         "type":"Retail",
         "stock":"Tata Power",
         "quantity":"15"
-    },
-    {
-        "id":2,
-        "name":"prasad",
-        "email":"prasad@gmail.com",
-        "number":"12123232322",
-        "city":"Thane",
-        "address":"Thane East",
-        "gender":"Male",
-        "type":"Retail",
-        "stock":"Tata Power",
-        "quantity":"15"
-    },
-    {
-        "id":3,
-        "name":"prasad",
-        "email":"prasad@gmail.com",
-        "number":"12123232322",
-        "city":"Thane",
-        "address":"Thane East",
-        "gender":"Male",
-        "type":"Retail",
-        "stock":"Tata Power",
-        "quantity":"15"
-    },
-    {
-        "id":4,
-        "name":"prasad",
-        "email":"prasad@gmail.com",
-        "number":"12123232322",
-        "city":"Thane",
-        "address":"Thane East",
-        "gender":"Male",
-        "type":"Retail",
-        "stock":"Tata Power",
-        "quantity":"15"
-    },
-    {
-        "id":5,
-        "name":"prasad",
-        "email":"prasad@gmail.com",
-        "number":"12123232322",
-        "city":"Thane",
-        "address":"Thane East",
-        "gender":"Male",
-        "type":"Retail",
-        "stock":"Tata Power",
-        "quantity":"15"
     }
-
+    
 ]
